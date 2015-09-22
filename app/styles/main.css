@@ -7,6 +7,29 @@
 
 body {
   padding: 0;
+
+}
+
+#container {
+  height: 400px;
+  width: 100%;
+  position: relative;
+}
+#image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width:100%;
+}
+#text {
+  z-index: 100;
+  position: absolute;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  left: 150px;
+  top: 350px;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
 }
 
 /* Everything but the jumbotron gets side spacing for mobile first views */
@@ -15,6 +38,19 @@ body {
 .footer {
   padding-left: 15px;
   padding-right: 15px;
+}
+
+
+/*custom fader*/
+
+
+.fade-in-out {
+  transition: 1s linear all;  
+  opacity: 1;
+}
+
+.fade-in-out.ng-hide {
+  opacity: 0;
 }
 
 /* Custom page header */
