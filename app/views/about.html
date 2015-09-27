@@ -1,7 +1,9 @@
 <p>This is the about view.</p>
 
 
-<button type="button" class="btn btn-info">Se CV og personalia</button>
+<button type="button" ng-click="show =!show"class="btn btn-info">Se CV og personalia</button>
 
-<p> <a href="resources/Netlight_CV_Alf_Magnus_lang.pdf" download> Here </a> you can have a look at my current Netlight CV, I am always looking to expand my experiences.
+<div ng-show="show" class="fade-in-out">
+<a  href="resources/Netlight_CV_Alf_Magnus_lang.pdf" target="_blank"> Here </a> you can have a look at my current Netlight CV, I am always looking to expand my experiences. <br>. I am 26 years, my colleague and Bjørn is helping me. </p>
+</div>z
 
