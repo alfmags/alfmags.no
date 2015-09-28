@@ -1,0 +1,26 @@
+.profileText{
+	max-width: 50%;
+	text-align: left;
+	float: left;
+	display: block;
+	white-space: normal;
+
+}
+.profilePicture{
+	max-width: 48%;
+	float: left;
+	margin: 1%;
+	
+}
+.profileStrenghts{
+	vertical-align:bottom;
+	
+}
+.profileList{
+	list-style-type: none;
+
+
+}
+.profileHeader{
+	font: italic bold;
+}
