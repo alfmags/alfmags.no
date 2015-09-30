@@ -1,9 +1,11 @@
 .profileText{
+	padding: 5%;
 	max-width: 50%;
 	text-align: left;
 	float: left;
 	display: block;
 	white-space: normal;
+
 
 }
 .profilePicture{
@@ -13,14 +15,22 @@
 	
 }
 .profileStrenghts{
+	
 	vertical-align:bottom;
 	
 }
 .profileList{
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	padding-bottom: 50%;
 
 
 }
 .profileHeader{
 	font: italic bold;
+}
+.strenghtSectiion{
+
+	background-color: #99CCFF;
 }
