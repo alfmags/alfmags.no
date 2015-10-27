@@ -1,12 +1,17 @@
+
+<div ng-init="initFirst()">
 <p> Test av blogg {{test}}</p>
 
-<form role="form" name="feedForm"  nosubmit="">
-	<input class="form-control" required="" type="url" ng-model="ctrl.feedUrl">
+<input name="test" ng-model="toaster.test" value="Vennligst Skriv boktittel" init-from-form />
 
-	
+</br>
 
-</form>
 
-<button class="btn btn-info"> Post JSON</button>
+<br>
+
+<button class="btn btn-info" ng-click="CreateBook()"> Post JSON</button>
 
 <p> {{testRecieve}} </p>
+
+<p ng-repeat="data in bookRecieve">{{data.Title}} <button ng-click="DeleteBook({{data.Id}})"> Delete Title </p>
+<div>

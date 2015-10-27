@@ -8,7 +8,7 @@
  * Controller of the alfmagsnoApp
  */
 angular.module('alfmagsnoApp')
-  .controller('MainCtrl', function () {
+  .controller('MainCtrl', function ($scope, $http) {
     this.awesomeThings = [
       'HTML5 Boilerplate',
       'AngularJS',
