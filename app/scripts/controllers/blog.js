@@ -32,9 +32,12 @@ angular.module('alfmagsnoApp')
       console.log("DeleteBook ble nettop kalt med Id: " +id);
       var request = $http.delete('http://alfmagsapi.azurewebsites.net/api/Books/' +id);
 
-          request.success(function(data){
-            $scope.initFirst();
-         })  
+
+      $scope.initFirst();
+      
+      //    request.success(function(data){
+      //      $scope.initFirst();
+     //    })  
     };
 
     $scope.CreateBook = function(){
@@ -51,7 +54,8 @@ angular.module('alfmagsnoApp')
                     "Id": 0,
                     "Name": "string"
                   }
-                } );          
+                } );
+
          request.success(function(data){
             $scope.initFirst();
          })

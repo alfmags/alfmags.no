@@ -31,7 +31,10 @@
 	font: italic bold;
 }
 .strenghtSectiion{
+	border-style: solid;
+	border-color: purple;
+	padding: 2.5%;
 
-	background-color: #99CCFF;
+	background-color: white;
 }
 

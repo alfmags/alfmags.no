@@ -9,8 +9,7 @@ body {
  
   padding: 0;
   background: url(http://laban.rs/img/bgi/el_bg_img_2.jpg);
-
-
+  padding-top: 30px;
 
 }
 
@@ -145,6 +144,11 @@ body {
   margin-top: 28px;
 }
 
+.footer{
+
+  bottom:0;
+}
+
 /* Responsive: Portrait tablets and up */
 @media screen and (min-width: 768px) {
   .container {
@@ -157,6 +161,7 @@ body {
   .footer {
     padding-left: 0;
     padding-right: 0;
+
   }
   /* Space out the masthead */
   .header {
