@@ -12,8 +12,16 @@
 	max-width: 48%;
 	float: left;
 	margin: 1%;
+
 	
 }
+
+.pictureFilter{
+	filter: gray; /* IE6-9 */
+  filter: grayscale(1); /* Firefox 35+ */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+}
+
 .profileStrenghts{
 	
 	vertical-align:bottom;
